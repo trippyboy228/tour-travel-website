@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travels</title>
+   <style>
+    *{
+    margin:0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("https://www.americanexpress.com/es-ar/seguros/mi-proteccion/api/storage/files/62de8f5b78dfbc5e85932e58");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-card{
+    border-radius: 50%;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px;
+    
+}
+.nav-links ul li {
+    color: #fff;
+    font-size: 15px;
+}
+/* .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} */
+.nav-links ul li:hover:after{
+  width: 100%;
+}
+
+.text_box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.text_box a{
+    color: #fff;
+    font-size: 20px;
+}
+.text_box a:hover{
+    background-color: #f44336;
+}
+
+
+
+.form-select{
+    width:100px;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3%;
+}
+.inputbox{
+    margin-left: 40%;
+}
+.input_box{
+    padding:10px;
+    border-color: aquamarine;
+}
+.btn{
+    padding: 10px;
+}
+.input_box:hover{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_img{
+ border-radius: 100%;
+}
+.h3{
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+.smart{
+    background-color: black;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    margin: 8%;
+}
+.heading{
+    color:black;
+    text-align: center;
+}
+.textis{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+.data{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.get{
+    background-color: black;
+ 
+}  
+
+/* h4{
+    margin-bottom:25% ;
+    font-family: roboto;
+    color: crimson;
+   position: absolute;
+   top:60%;
+   text-align: center;
+  
+
+} */
+.follow{
+    color: white;
+    margin-left: 35%;
+}
+.link{
+    margin-left: 12%;
+    color: #fff;
+}
+.copy{
+    margin-left: 18%;
+    color: #fff;
+}
+.headings{
+    color: #fff;
+    text-align: center;
+}
+.copy h5{
+    margin-top: 15%;
+}
+@media(max-width:700px){
+    /* .nav-links ul li{
+        display: block;
+    } */
+    .input_box{
+        margin-left: -15%;
+    }
+    .card_img{
+        margin-left: 10%;
+    }
+    .h3{
+        text-align: center;
+    }
+  .follow{
+    text-align: center;
+    margin-left: 5%;
+  }
+   
+    /* .nav-links{
+        position: absolute;
+        background:#f44336;
+        height: 100vh;
+        width: 200px;
+        top:0%;
+        right:0%;
+        text-align: center;
+        z-index: 2;
+        transition: 1s;
+    } */
+    /* nav .fa{
+        display: block;
+        color:#fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+   */
+}
+   </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <img class="img-card"src="https://t3.ftcdn.net/jpg/00/78/90/14/360_F_78901436_4ZxCtWCMslao8otEB88oCxQeXfCGDRV7.jpg" height="100px"width="150px">
+        <div class="nav-links" id="navLinks">
+            <!-- <i class="fa fa-times fa-2x" onclick="hideMenu()"></i> -->
+          
+            <ul>
+                <li>Contact No : 9816280175</li>
+                <!-- <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li> -->
+                
+            </ul>
+        </div>
+        <!-- <i class="fa fa-bars fa-2x" onclick="showMenu()"></i> -->
+       </nav>
+       <div class="text_box">
+        <h1> Friends Taxi Union</h1><br>
+        
+        <a href=""> Visit Us To Know More </a>
+       </div>
+    </section>
+    <div class="heading">
+        <h1>Book cabs</h1>
+    </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+          <div class="inputbox">
+            <input class="input_box" type="text" placeholder="enter the name"> <br><br>
+            <input class="input_box" type="email" placeholder="enter the email"><br><br>
+            <input  class="input_box" type="number" placeholder="enter the number"> <br><br>
+             <span><select class="input_box" id="vehicle"> <option value="Type of vechile">Select Car</option> <option value="innova">Innova</option> <option value="swift">Swift</option> <option value="traveller">Traveller</option>  <option value="anyone">Any one </option>  </select></span><br><br>
+            <input class="input_box" type="address" placeholder="Pick up address">  <br><br>
+            <input class="input_box" type="address" placeholder="Drop off address"><br><br>
+            <input class="input_box" type="date" placeholder="Pick up date" onfocus="Date"><br><br>
+             <input class="btn" type="submit">
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class="heading">
+    <h1>Our Car Fleet</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4 pt-5">
+            <img class="card_img" src="https://i.pinimg.com/originals/04/00/9b/04009b61b23a909ac562f6245e8bb7cc.jpg" height="300px" width="300px">
+            <h3>Per Day </h3>/ <small>Destination Wise Tariff</small>
+            <p>LUXERY | 4 PASSENGERS | 5.6/100 MPG</p>
+            <button>Book Now</button>
+        </div>
+        <div class="col-lg-4 pt-5">
+            <img class="card_img" src="https://imgd.aeplcdn.com/664x374/n/b6j9ora_1420392.jpg?q=80" height="300px" width="300px">
+            <h3>Per Day </h3>/ <small>Destination Wise Tariff</small>
+            <p>LUXERY | 6 PASSENGERS | 7.5/100 MPG</p>
+            <button>Book Now</button>
+        </div>
+        <div class="col-lg-4 pt-5">
+            <img class="card_img" src="https://st3.depositphotos.com/1550655/37157/i/450/depositphotos_371578074-stock-photo-chiangmai-thailand-april-2020-new.jpg" height="300px" width="300px">
+            <h3>Per Day </h3>/ <small>Destination Wise Tariff</small>
+            <p>LUXERY | 8 PASSENGERS | 6.6/100 MPG</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+  </div><br><br><br>
+  <div class="smart">
+    <div class="headings">
+        <h1>Our Tour Package</h1>
+    </div><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="card_img" src="https://images.unsplash.com/photo-1579689189009-874f5cac2db5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFuYWxpfGVufDB8fDB8fHww" height="300px" width="300px">
+                <h6 class="text">Manali</h6>
+            </div>
+            <div class="col-lg-4">
+                <img class="card_img" src="https://www.toshaliresort.com/helpers/images/the-ridge-shimla.jpg" height="300px" width="300px">
+                <h6 class="text">Shimla</h6>
+            </div>
+            <div class="col-lg-4">
+                <img class="card_img" src="https://www.fabhotels.com/blog/wp-content/uploads/2021/12/4-war-memorial-dharamshala.jpg" height="300px" width="300px">
+                <h6 class="text">Dharamshala</h6>
+            </div><br><br><br><hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="card_img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/69/10/58/view-from-the-front.jpg?w=500&h=-1&s=1" height="300px" width="300px">
+                    <h6 class="text">Kaza</h6>
+                </div>
+                <div class="col-lg-4">
+                    <img class="card_img" src="https://images.hindustantimes.com/rf/image_size_800x600/HT/p2/2015/08/17/Incoming/Pictures/rohtang-pass_2ae12a6a-4493-11e5-a8da-005056b4648e.jpg" height="300px" width="300px">
+                    <h6 class="text">Rohtang Pass</h6>
+                </div>
+                <div class="col-lg-4">
+                    <img class="card_img" src="https://media2.thrillophilia.com/images/photos/000/152/188/original/1581765398_amritsar-3083693.jpg?width=975&height=600" height="300px" width="300px">
+                    <h6 class="text">Golden Temple Amritsar</h6>
+                </div><br><br><br><hr>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="card_img" src="https://staticimg.amarujala.com/assets/images/2023/04/30/750x506/chandigarh_1682849050.jpeg" height="300px" width="300px">
+                        <h6 class="text">Chandigarh Rock Garden</h6>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="card_img" src="https://img.veenaworld.com/wp-content/uploads/2018/06/stda-exp-1.jpg" height="300px" width="300px">
+                        <h6 class="text">Delhi Red fort</h6>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="card_img" src="https://aamod.in/wp-content/uploads/2022/12/Sightseeing-Dalhousie-1-768x511-1.webp" height="300px" width="300px">
+                        <h6 class="text">Dal Housie Chamba</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 pt-5">
+            <h4 class="textis">Thakur Cabs Service Is The Best Cab Service, India's Best Taxi Service</h4>
+            <p class="data">We are Thakur Cabs Car Rentals, an online taxi booking aggregator, providing clients with reliable and world-class local and long distance car rental services.<br> Over the past ten years, we have uniquely positioned ourselves as the largest chauffeured car rental company in India.</p>
+        </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 pt-5">
+            <h4 class="textis">One Way And Round Trip Cab Service</h4>
+            <p class="data">
+For us, a road trip is one of the most exciting ways to travel the length and breadth of India. There is always something to see, explore and experience.<br> Because we love being on the road, we've done everything we can to make sure you have a great experience too. We wanted more of you to take a road trip and more to experience the same joys of traveling as us. <br>Relax instead of driving and take our chauffeured taxis on your next vacation. We believe that the time you spend on vacation should be entirely yours. We are now represented in 90 cities in India,<br> so you can travel anywhere you want.
+
+We love that you can stop breathing fresh air, learn about cultures, and taste local cuisine when you travel by taxi. <br>We love that these healthy experiences enhance travel and enrich our lives. We live for the surprises we find on road trips.
+
+No city is too big or too small. We know that travelers and hikers are like us everywhere. You live near Khajuraho, you live near Aleppey, and you live near Alibag and near Tranquebar.<br> We want you to visit them all. Pack your bags every weekend and explore everything you can see around you.
+
+To make planning your vacation easier, you can book a cab with ease on our website, or call us on 9816280175 if you'd like to discuss your itinerary with our executives in detail.<br> When you book an outstation cab with us, we'll send you a travel kit and help you plan your itinerary. We also have a handy cab booking App that will further reduce the hassles of booking a trip with us. Our expert drivers will guide you through some of the best experiences India has to offer. From the time you make a booking with us, to the time you get back home, we'll make sure you have a great road trip.</p>
+        </div>
+    </div>
+  </div>
+  <div class="conatiner">
+    <div class="row">
+        <div class="col-lg-12 pt-5">
+            <h4 class="textis">India’s Most Reliable Taxi Service, Outstation Cab Services</h4>
+            <p class="data">
+                Are you planning a weekend? Our taxi services from the outdoor station will help you reach the best destinations, visit all the must-see places and taste the best local cuisine. <br>Have you just landed at the airport or train station closest to your destination? No problem! You can use our airport taxi, the public transport pick-up service, to cover the last mile.<br> We will drive you to your destination and show you some of the best views along the way.<br> Have you decided to spend a personal day and spend the whole day exploring your city? Our local taxi packages will help you explore the best places to eat and drink, some of the city's majestic monuments, the greenest parks, and the oldest temples. Never worry about an empty path again. <br>Are you a offbeat traveller? Do you just go outside and decide to go from there? We offer one-way transfers on multiple routes in case you just want to be driven to one destination and don't want to look back.</p>
+        </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+    <div class="conainer">
+        <div class="row">
+       <div  class="  col-lg-12 ">
+                 <img src="https://www.carlelo.com/image/variant/X5oFEs7yuEdY3HTKID9FfZNn6wsmDFoc7JpZIVqu.png"width="100%" height="700vh" />
+         </div>
+          </div>
+         </div><br></br>
+       
+         <div class="get">
+           
+           <div class="row">
+             <div class="col-lg-4">
+               <div class="link">
+             <button class="btn btn" type="click"><img src="https://c.ekstatic.net/ecl/logos/appstore/apple-en.svg?h=FJJxsKPmgHqgUIyQclfJDQ"height="90px"width="100px"></img></button>
+  <button class="btn btn" type="click"><img src="https://c.ekstatic.net/ecl/logos/appstore/google-en.svg?h=cmeirryR6eVLHItt4HLLeQ"height="90px"width="100px"></img></button>
+             </div>
+             </div>
+             <div class="col-lg-4">
+               <div class="copy">
+              <h5>Copyright 2023 & copy; Me Surinder Kumar</h5>
+             </div>
+             </div><br></br><br></br><br></br>
+             <div class="col-lg-4">
+               <div class="follow">
+               <h2>Contact Us</h2>
+              <p>Address:VPO-Bhawarna Teh-Palampur Distt-Kangra (H.P) 176083</p>
+              <p>Contact No - 9816280175</p>
+             </div>
+             </div>
+           </div>
+           </div>
+       
+         
+ 
+
+
+
+
+
+    <!-- <script>
+        var navlinks=document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script> -->
+</body>
+</html>
